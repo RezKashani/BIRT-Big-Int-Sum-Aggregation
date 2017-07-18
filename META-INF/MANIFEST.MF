@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Previousvalue
+Bundle-SymbolicName: org.eclipse.birt.aggregate.bigintsum;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.eclipse.birt.aggregate.bigintsum.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.birt.data
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
