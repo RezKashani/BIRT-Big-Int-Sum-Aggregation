@@ -15,6 +15,7 @@ public class BigIntSumAccum extends Accumulator {
 		super.finish();
 	}
 	public void start() throws DataException {
+		sum = new BigInteger("0");
 		super.start();
 	}
 
